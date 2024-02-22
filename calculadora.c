@@ -1,6 +1,18 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
-  printf("Hola Mundo");
-  return 0;
+
+int main() {
+    
+    printf ("hola mundo");
+    return 0;
+}
+ int resta (int A, int B){
+     
+ int rest= 0;
+ rest =(A-B);
+ 
+    
+
+return  rest;
+
 }
