@@ -11,3 +11,9 @@ int multiplicacion(int A, int B){
 
   return mult;
 }
+
+int division(int A, int B){
+  int rest=0;
+  if(B==0) return 0;
+  return A/B;
+}
