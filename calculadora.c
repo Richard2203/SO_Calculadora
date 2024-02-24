@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include <stdlib.h>
 
 double multiplicacion(double A, double B);
 double resta (double A, double B);
@@ -33,7 +34,8 @@ int main(){
         printf("Opción invalida.");
         break;
     }
-    
+
+  system("pause");
   return 0;
 }
 
