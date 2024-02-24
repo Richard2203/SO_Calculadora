@@ -39,6 +39,12 @@ double multiplicacion(double A, double B){
   return mult;
 }
 
+int resta (int A, int B){    
+  int rest= 0;
+  rest =(A-B);    
+  return  rest;
+}
+
 double division(double A, double B){
   double rest=0;
   if(B==0) return 0;
