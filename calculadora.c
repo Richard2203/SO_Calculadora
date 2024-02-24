@@ -1,5 +1,9 @@
 #include<stdio.h>
 
+double multiplicacion(double A, double B);
+double resta (double A, double B);
+double division(double A, double B);
+
 int main(){
     double numero1, numero2;
     char operador;
@@ -17,7 +21,7 @@ int main(){
         printf("La suma de los dos valores es: %0.2lf\n", (numero1+numero2));
         break;
       case '-':
-        printf("La resta de los dos valores es: %0.2lf\n", 2);
+        printf("La resta de los dos valores es: %0.2lf\n", resta(numero1,numero2));
         break;
       case '*':
         printf("La multiplicación de los dos valores es: %0.2lf\n", multiplicacion(numero1,numero2));
@@ -39,8 +43,8 @@ double multiplicacion(double A, double B){
   return mult;
 }
 
-int resta (int A, int B){    
-  int rest= 0;
+double resta (double A, double B){    
+  double rest= 0;
   rest =(A-B);    
   return  rest;
 }
