@@ -39,6 +39,12 @@ int main(){
   return 0;
 }
 
+double resta (double A, double B){
+  double rest= 0;
+  rest =(A-B);
+  return  rest;
+}
+
 double multiplicacion(double A, double B){
   double mult=0;
   mult=(A*B);
